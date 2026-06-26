@@ -4,10 +4,141 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <link rel="stylesheet" href="Index.css"/>
-    <title>Exo</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <div>Hello world</div>
-    <div><h2>Bienvenue</h2></div>
+    <!-- header section -->
+    <header>
+      <h3>AldiCode</h3>
+      <div class="menu" ><i class="fa-solid fa-bars"></i></div>
+    </header>
+    <!-- home section -->
+    <div id="home">
+      <div class="hero">
+        <div class="image">
+          <img src="./me.png" alt="faceImage" />
+        </div>
+        <div class="btns">
+          <button>Document CV</button>
+          <button>Contact</button>
+        </div>
+      </div>
+      <div class="presentation">
+        <h4>Salut! Je suis,</h4>
+        <h2>Albert Dima</h2>
+        <p></p>
+        <div class="social-media">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <!-- Experience section -->
+    <div class="experience" >
+      <h2>Experience</h2>
+      <div class="experience-card" >
+        <div class="card">
+          <i class="fa-brands fa-js"></i>
+          <span>JAVASCRIPT</span>
+          <h3>2 ans</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley</p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-react"></i>
+          <span>REACT.JS</span>
+          <h3>2 ans</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley</p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-node"></i>
+          <span>NODE.JS</span>
+          <h3>1 an</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley</p>
+        </div>
+        <div class="card">
+          <h4>Express.Js</h4>
+          <span>EXPRESS.JS</span>
+          <h3>1 an</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley</p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-mdb"></i>
+          <span>MongoDB</span>
+          <h3>1 an</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley</p>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <!-- projects section -->
+    <div class="projects">
+      <h2>Projects récents</h2>
+      <div class="project-cards">
+        <div class="card">
+          <div class="imgs">
+            <img src="./Projet1.png" alt="projetImg"/>
+          </div>
+          <div class="infos">
+            <h3>Projet x</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="infos-btns">
+            <button>Live Démo</button>
+            <button>Git repo</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgs">
+            <img src="./Projet2.png" alt="projetImg"/>
+          </div>
+          <div class="infos">
+            <h3>Projet y</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="infos-btns">
+            <button>Live Démo</button>
+            <button>Git repo</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgs">
+            <img src="./Projet3.png" alt="projetImg"/>
+          </div>
+          <div class="infos">
+            <h3>Projet z</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="infos-btns">
+            <button>Live Démo</button>
+            <button>Git repo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <!-- contacts section -->
+    <div class="contact" >
+      <h2>Me contacter</h2>
+      <form action="" >
+        <input type="text" placeholder="Nom complet" required />
+        <input type="email" placeholder="exemple@gmail.com" required />
+        <textarea placeholder="Message..."></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+    <!-- footer section -->
+    <div class="footer" >
+      <ul>
+        <li><a href="">Apropos</a></li>
+        <li><a href="">Experience</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <h4>AldiCode</h4>
+      <p>copyrigth <span></span> tous droits réservés</p>
+    </div>
   </body>
 </html>
