@@ -45,7 +45,7 @@ header .menu{
 header .menu i{
   font-size: 22px;
 }
-.menuList{
+.navbar{
   width: 170px;
   height: 200px;
   position: fixed;
@@ -55,18 +55,19 @@ header .menu i{
   display: none;
   transition: .3s ease-in-out;
   border-radius: 4px;
+  z-index: 9;
 }
-.menuList ul{
+.navbar ul{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.menuList ul li{
+.navbar ul li{
   list-style: none;
   line-height: 50px;
 }
-.menuList ul li a{
+.navbar ul li a{
   text-decoration: none;
   color: #fff;
   font-size: 16px;
