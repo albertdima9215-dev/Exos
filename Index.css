@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Poppins ,sans-serif, serif;
 }
 body{
   width: 100%;
@@ -41,6 +42,7 @@ header .menu{
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: .5s;
 }
 header .menu i{
   font-size: 22px;
@@ -53,7 +55,7 @@ header .menu i{
   right: 30px;
   background: #fff;
   display: none;
-  transition: .3s ease-in-out;
+  transition: .5s;
   border-radius: 4px;
   z-index: 9;
 }
@@ -156,6 +158,7 @@ header .menu i{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 700;
 }
 #home .presentation .social-media{
   position: relative;
@@ -217,7 +220,7 @@ header .menu i{
 }
 #experience .experience-card .card p{
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
 }
 #experience .experience-card .card:hover{
   background: #222;
@@ -232,8 +235,8 @@ header .menu i{
   padding: 10px 10px 15px;
 }
 #projects .project-cards .card .imgs{
-  width: 70%;
-  height: 100px;
+  width: 90%;
+  height: 200px;
   margin: 0 auto;
 }
 #projects .project-cards .card .imgs img{
@@ -248,9 +251,10 @@ header .menu i{
   text-transform: uppercase;
   margin: 10px 0;
 }
-.projects .project-cards .card .infos p{
+#projects .project-cards .card .infos p{
   text-align: center;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 600;
 }
 #projects .project-cards .card .infos-btns{
   width: 170px;
